@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- displays site properly based on user's device -->
+
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./favicon-32x32.png"
+    />
+
+    <link rel="stylesheet" href="style.css" />
+
+    <script defer src="./app.js"></script>
+
+    <title>Interactive Rating Component</title>
+  </head>
+  <body>
+    <section class="rating-state">
+      <div class="rating-state__icon-container">
+        <img src="./icon-star.svg" />
+      </div>
+      <h2 class="rating-state__title">How did we do?</h2>
+      <p class="rating-state__text">
+        Please let us know how we did with your support request. All feedback is
+        appreciated to help us improve our offering!
+      </p>
+      <div class="rating-state__number-container">
+        <button class="rating-state__number-container__number">1</button>
+        <button class="rating-state__number-container__number">2</button>
+        <button class="rating-state__number-container__number">3</button>
+        <button class="rating-state__number-container__number">4</button>
+        <button class="rating-state__number-container__number">5</button>
+      </div>
+      <button class="rating-state__submit">Submit</button>
+    </section>
+
+    <section class="thanks-state">
+      <img
+        src="./illustration-thank-you.svg"
+        class="thanks-state__image"
+        alt=""
+      />
+      <div class="thanks-state__result">
+        You selected <span class="thanks-state__result--number">4</span> out of
+        5 <span class="cara"></span>
+      </div>
+      <h2 class="thanks-state__title">Thank you!</h2>
+      <p class="thanks-state__text">
+        We appreciate you taking the time to give a rating. If you ever need
+        more support, don’t hesitate to get in touch!
+      </p>
+    </section>
+
+    <footer class="attribution">
+      Challenge by
+      <a href="https://www.frontendmentor.io?ref=challenge" target="_blank"
+        >Frontend Mentor</a
+      >. Coded by <a href="#">Tomas Box</a>.
+    </footer>
+  </body>
+</html>
